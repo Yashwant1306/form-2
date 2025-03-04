@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SIMPLE CONTACT FORM</h1>
+    <div class="main" > 
+        <form class="form" type="submit" method="post" action="thankyou.html" >
+            <label class="bot e">First Name</label>
+            <br/>
+            <input class="bot" type="text" id="first-name" name="first-name" required>
+            <br/><br/>
+            <label class="bot e">Last Name</label>
+            <br/>
+            <input class="bot" type="text" id="last-name" name="last-name" required>
+            <br/><br/>
+            <label class="bot e">Email</label>
+            <br/>
+            <input class="bot" type="email" id="email" name="email" required>
+            <br/><br/>
+            <label class="bot e">Number</label>
+            <br/>
+            <input class="bot" type="tel" id="number" name="number" required>
+            <br/><br/>
+            <label class="bot e">City</label>
+            <br/>
+            <select class="bot " id="city" name="city">
+                <option class="b" value="">Select City</option>
+                <option class="b" value="Goa">Goa</option>
+                <option class="b" value="Mumbai">Mumbai</option>
+                <option class="b" value="pune">pune</option>
+            </select>
+            <br/><br/>
+            <label class="bot e">Message</label>
+            <br/>
+            <textarea class="bot" id="message" name="message"placeholder="Praesentium ut archi....." rows="5" required></textarea>
+            <br/>
+        <button class="button1" type="submit ">Send</button>
+        </form>
+    </div>
+    <p class="footer">&copy;2023 Simple Contact Form. All Rights Reserved | Design by Sufiyan Shaikh</p>
+</body>
+</html>
